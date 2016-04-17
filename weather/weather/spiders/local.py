@@ -8,7 +8,7 @@ __author__ = 'zjutK'
 class WeatherSpider(scrapy.Spider):
     name = "SinaWeather"
     allowed_domains = ["sina.com.cn"]
-    start_urls = ['http://scrapytest.sina.com.cn/']
+    start_urls = ['http://weather.sina.com.cn/']
 
     def parse(self, response):
         item = WeatherItem()

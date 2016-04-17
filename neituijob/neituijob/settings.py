@@ -31,7 +31,6 @@ NEWSPIDER_MODULE = 'neituijob.spiders'
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED=False
-
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED=False
 

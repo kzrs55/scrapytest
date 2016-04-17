@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'scrapytest'
+BOT_NAME = 'weather'
 
-SPIDER_MODULES = ['scrapytest.spiders']
-NEWSPIDER_MODULE = 'scrapytest.spiders'
+SPIDER_MODULES = ['weather.spiders']
+NEWSPIDER_MODULE = 'weather.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -62,7 +62,7 @@ NEWSPIDER_MODULE = 'scrapytest.spiders'
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'scrapytest.pipelines.WeatherPipeline': 1,
+   'weather.pipelines.WeatherPipeline': 1,
 }
 USER_AGENT = 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
 

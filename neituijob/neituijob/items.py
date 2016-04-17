@@ -14,8 +14,9 @@ class NeituijobItem(scrapy.Item):
     name = scrapy.Field()  # 职位名称
     company = scrapy.Field()  # 公司名称
     work_location = scrapy.Field()  # 工作地点
-    recruit_number = scrapy.Field()  # 招聘人数
-    detail_link = scrapy.Field()  # 职位详情页链接
+    recruit_require = scrapy.Field()  # 招聘要求
+    # detail_link = scrapy.Field()  # 职位详情页链接
+    company_tag = scrapy.Field()  # 公司标签
     publish_time = scrapy.Field()  # 发布时间
     data = scrapy.Field()  # 职位详情
     pass
